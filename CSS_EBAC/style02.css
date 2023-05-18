@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/*esse comando serve pra resetar as configuraçoes aplicada pelo site NO BOX MODEL*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
