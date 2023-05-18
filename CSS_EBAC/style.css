@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*esse comando serve pra resetar as configuraçoes aplicada pelo site NO BOX MODEL*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*para selecionar uma tag pelo seu nome, apenas coloque seu nome
+OBS lembando que ao utilizar esse metodo todas as tags repetidas ficaram igual*/
+h1{
+    background-color: lightgreen;color: rgb(1, 31, 6);
+}
+
+/* para selecionar a partir de seu ID se ultiliza as #*/
+#sports h2{
+    color: darkorange;
+}
+
+#econommy h2{
+    color: rgb(97, 202, 11);  
+}
+
+/*para selecionar um elemento apartir de sua classe, se ultiliza o ponto */
+ .creation-date{
+    color: rgb(240, 23, 142);  /**/
+}
+
+/*para selecionar todos os conteudos ultilize o asteristico */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
