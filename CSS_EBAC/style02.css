@@ -6,3 +6,18 @@
     margin: 0px;
     padding: 0px;
 }
+
+header li{
+    display: inline;
+
+}
+
+.alinhamento{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+h1{
+    color: pink;
+    background-color: black;
+}
