@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /*esse comando serve pra resetar as configuraçoes aplicada pelo site NO BOX MODEL*/
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -9,10 +10,9 @@
 
 header li{
     display: inline;
-
 }
 
-.alinhamento{
+.container{
     width: 1366px;
     margin: 0 auto;
 }
@@ -20,4 +20,11 @@ header li{
 h1{
     color: pink;
     background-color: black;
+}
+
+.articles{
+    display: flex;
+}
+.articles{
+    height: 1000px;
 }
