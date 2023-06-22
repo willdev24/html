@@ -4,12 +4,67 @@
 
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+header{
+    background-color: rgb(149, 218, 175);
+}
+header .container{
+display:flex;
+padding: 16px 0;
+color: rgb(3, 54, 3);
+align-items: center;
+justify-content: space-between; 
+
+}
+header li a {
+color: black;
+text-decoration:none; 
+font-weight: bolder;
+
 }
 
 header li{
     display: inline;
+margin-left: 16px;
+    
+}
+
+#sports h2{
+    color: rgba(6, 161, 6, 0.8);
+    height:45px;
+    padding:10px 0;
+    font-size:32px;
+
+}
+
+#sports{
+   
+    background-color: rgba(0,255,0,0.1);
+}
+#sports .articles article a{
+    background-color: rgb(8, 150, 8); 
+}
+
+
+#econommy h2{
+    color: blue;
+    height:45px ;
+    padding:10px 0;
+    font-size:32px;
+    
+} 
+
+#econommy{
+
+background-color: lightskyblue;
+}
+
+section  {
+padding: 5px 0;
 }
 
 .container{
@@ -17,14 +72,47 @@ header li{
     margin: 0 auto;
 }
 
-h1{
-    color: pink;
-    background-color: black;
+.articles {
+    display: flex;
+    flex-wrap: wrap;   /*esse comando serve para: ao adcinar uma imagem ela pula
+                        pra proxima linha para nao alterar a configuraÇao*/
+    justify-content: space-between; /*comando pros spaÇos serem distribuidos de forma igualitaria*/
 }
 
-.articles {
-    display: flex ;
+.articles article img{
+/*    height: 180px; 
+*/ width: 100%;
 }
-.articles{
-    height: 1000px;
+.articles article{
+    width:30%;
+}
+
+.articles article p {
+    width:90%;
+    font-family: a;
+}
+
+.articles article {
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width:100%;
+    font-size: 24px;
+}
+.articles article a {
+     background-color: blue;
+     color: beige;
+     padding:8px ;
+     display: inline-block;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration:none;  
+     font-weight: bolder; 
+     margin-top: 8px;   
+    }
+
+.articles article a:hover{
+    text-decoration:underline;
+
 }
