@@ -22,8 +22,8 @@ h1{
     background-color: black;
 }
 
-.articles{
-    display: flex;
+.articles {
+    display: flex ;
 }
 .articles{
     height: 1000px;
