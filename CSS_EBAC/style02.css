@@ -63,6 +63,51 @@ margin-left: 16px;
 background-color: lightskyblue;
 }
 
+#entretenimento h2{
+  color: rgb(241, 226, 6);  
+ padding: 10px 0 ;
+ font-size:32px;
+ height:45px ;
+}
+
+#entretenimento{
+   
+    background-color: rgba(236, 142, 236, 0.1);
+}
+#entretenimento .articles article a{
+    background-color: rgb(250, 234, 6); 
+    color: black;
+}
+
+#tecnologia h2{
+    color: rgb(247, 6, 18);  
+   padding: 10px 0 ;
+   font-size:32px;
+   height:45px ;
+  }
+  
+  #tecnologia{
+     
+      background-color: rgba(0, 0, 0);
+  }
+  #tecnologia .articles article a{
+      background-color: rgb(231, 6, 44); 
+      
+  }
+
+  #tecnologia .articles article p {
+color: aliceblue;
+
+  }
+  
+  #tecnologia .articles article h3 {
+    color: aliceblue;
+    
+      }
+  
+  
+
+
 section  {
 padding: 5px 0;
 }
