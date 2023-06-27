@@ -8,7 +8,7 @@
 }
 main{
    background-color: rgb(234, 239, 248);
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Roboto', sans-serif;
 color: rgb(0, 0, 116);
 }
 
@@ -22,6 +22,10 @@ header{
     background-color: rgb(3, 3, 87);
    
 }
+header .container, h2, h3,h4{
+   font-family: 'Bungee', cursive;
+   font-weight:normal;
+}
  
 header .container {
     color: aliceblue;
@@ -29,6 +33,7 @@ header .container {
     padding: 16px 100px;
     align-items: center;
     justify-content:space-between;
+    
  }
 
  header .container li{
