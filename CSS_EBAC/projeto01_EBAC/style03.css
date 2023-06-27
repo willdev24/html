@@ -6,3 +6,89 @@
     margin: 0px;
     padding: 0px;
 }
+main{
+   background-color: rgb(234, 239, 248);
+}
+
+.container{
+
+   padding: 16px 100px
+}
+
+
+header{
+    background-color: rgb(3, 3, 87);
+}
+ 
+header .container {
+    color: aliceblue;
+    display: flex;
+    padding: 16px 100px;
+    align-items: center;
+    justify-content:space-between;
+ }
+
+ header .container li{
+    display: inline;
+    margin-left:16px; 
+ }
+
+header .container li a {
+        color: aliceblue;
+        font-weight: bolder;
+        text-decoration: none;
+ }
+    
+ #imagens .container img{
+    margin-top: 30px;  
+    height: 650px;
+    
+ }
+ section{
+   display: flex;
+ }
+ .articles article{
+   margin-top: 45px;
+   margin-left: -70px;
+   
+ }
+ .articles article img {
+    height: 100px;
+ }
+
+#descriçoes .container{
+   margin-top: 30px;
+  padding: 16px ;
+  margin-left: -100px;  
+   
+}
+
+.articles article p {
+   width:70%;
+   margin-top: 16px;
+}
+
+h2{
+   font-size: 30px;
+}
+
+.container h4{
+   font-size:20px;
+   padding: 16px 0;
+}
+#contato .container {
+   margin-top: 30px;
+   font-size: 25px;
+}
+
+
+
+ main {
+   display: flex;
+   flex-wrap: wrap;
+      
+}
+
+.articles article{
+margin-left: 100px;}
+
